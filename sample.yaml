@@ -1,0 +1,10 @@
+sample:
+  name: Navit sample
+tests:
+  sample.basic.blinky:
+    tags: LED gpio
+    filter: dt_compat_enabled_with_alias("gpio-leds", "led0")
+    depends_on: gpio
+    harness: led
+    intergration_platforms:
+      - frdm_k64f
