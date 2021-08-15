@@ -1,7 +1,7 @@
 # Navit
 
 ### Overview
-Motocycle Navigation App
+Motocycle Navigation Apps
 ### Requirements
 
 The example is tested using the [adafruit_2_8_tft_touch_v2](https://docs.zephyrproject.org/latest/boards/shields/adafruit_2_8_tft_touch_v2/doc/index.html) display, and one of the following boards:
